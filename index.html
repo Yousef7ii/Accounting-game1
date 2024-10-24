@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة جمع وطرح الأعداد للأطفال</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>لعبة جمع وطرح الأعداد</h1>
+        <p>أجب عن الأسئلة التالية:</p>
+        <div id="question"></div>
+        <input type="number" id="answer" placeholder="اكتب الإجابة هنا">
+        <button onclick="checkAnswer()">تحقق</button>
+        <p id="feedback"></p>
+        <button onclick="generateQuestion()">سؤال جديد</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

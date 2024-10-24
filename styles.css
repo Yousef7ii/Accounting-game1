@@ -1,0 +1,36 @@
+body {
+    background-color: #FFA500; /* برتقالي */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: #1E90FF; /* أزرق */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+button {
+    background-color: white;
+    color: #1E90FF;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FFA500;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #1E90FF;
+    margin-top: 10px;
+}
